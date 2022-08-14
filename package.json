@@ -1,0 +1,22 @@
+{
+  "name": "ndse002",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getDate.js",
+  "bin": {
+    "cmd": "./getDate.js",
+    "guessNumber": "./guessNumber.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getDate": "getDate.js",
+    "guessNumber": "guessNumber.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/yargs": "^17.0.11",
+    "yargs": "^17.5.1"
+  }
+}
